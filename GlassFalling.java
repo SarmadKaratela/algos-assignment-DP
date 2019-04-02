@@ -8,12 +8,21 @@ public class GlassFalling {
     // 1. Base Case when floor is 1 or 0, we just return the number of floors
     if (floors == 1 || floors == 0 ){
       return floors;
+<<<<<<< HEAD
 
     }
     // 2. Base Case when we only have one sheet to work with. we just return the current floor
      if (sheets == 1 ){
        return floors;
 
+=======
+
+    }
+    // 2. Base Case when we only have one sheet to work with. we just return the current floor
+     if (sheets == 1 ){
+       return floors;
+
+>>>>>>> 6c0a1528a0e25385cfea5d72af7caea90ef3fa66
      }
     int minTrails = Integer.MAX_VALUE;
 		
